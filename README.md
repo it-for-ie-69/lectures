@@ -8,4 +8,4 @@
 
 ## Lecture VDO Playlist
 
-- [Fullstack 69](#)
+- [IT for IE 69](https://www.youtube.com/playlist?list=PLNGLpHQhvGrt8AiYQpb8uvtZa5P7RKPcv)
