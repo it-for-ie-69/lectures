@@ -9,3 +9,8 @@
 ## Lecture VDO Playlist
 
 - [IT for IE 69](https://www.youtube.com/playlist?list=PLNGLpHQhvGrt8AiYQpb8uvtZa5P7RKPcv)
+
+## Introduction
+
+- [HTML](./src/T01_intro/T01.html)
+- [PDF](./src/T01_intro/T01.pdf)
