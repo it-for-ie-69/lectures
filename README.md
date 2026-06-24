@@ -14,3 +14,18 @@
 
 - [HTML](./src/T01_intro/T01.html)
 - [PDF](./src/T01_intro/T01.pdf)
+
+## HTML
+
+- [HTML](./src/T02_html/T02.html)
+- [PDF](./src/T02_html/T02.pdf)
+
+## CSS (Part 1)
+
+- [HTML](./src/T03_css_1/T03.html)
+- [PDF](./src/T03_css_1/T03.pdf)
+
+## CSS (Part 2)
+
+- [HTML](./src/T04_css_2/T04.html)
+- [PDF](./src/T04_css_2/T04.pdf)
