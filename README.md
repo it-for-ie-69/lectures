@@ -29,3 +29,18 @@
 
 - [HTML](./src/T04_css_2/T04.html)
 - [PDF](./src/T04_css_2/T04.pdf)
+
+## JavaScript
+
+- [HTML](./src/T05_javascript/T05.html)
+- [PDF](./src/T05_javascript/T05.pdf)
+
+## TypeScript
+
+- [HTML](./src/T06_typescript/T06.html)
+- [PDF](./src/T06_typescript/T06.pdf)
+
+## DOM
+
+- [HTML](./src/T07_dom/T07.html)
+- [PDF](./src/T07_dom/T07.pdf)
