@@ -10,13 +10,13 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T04_css_2"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\T04_css_2"
+# npm run html $folder
+# npm run pdf $folder
 
-$folder = "src\T05_javascript"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\T05_javascript"
+# npm run html $folder
+# npm run pdf $folder
 
 $folder = "src\T06_typescript"
 npm run html $folder
