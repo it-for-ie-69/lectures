@@ -49,3 +49,8 @@
 
 - [HTML](./src/T08_vue/T08.html)
 - [PDF](./src/T08_vue/T08.pdf)
+
+## Vue.js Basics
+
+- [HTML](./src/T09_vue_basics/T09.html)
+- [PDF](./src/T09_vue_basics/T09.pdf)

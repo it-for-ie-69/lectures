@@ -14,18 +14,22 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T05_javascript"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\T05_javascript"
+# npm run html $folder
+# npm run pdf $folder
 
-$folder = "src\T06_typescript"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\T06_typescript"
+# npm run html $folder
+# npm run pdf $folder
 
-$folder = "src\T07_dom"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\T07_dom"
+# npm run html $folder
+# npm run pdf $folder
 
-$folder = "src\T08_vue"
+# $folder = "src\T08_vue"
+# npm run html $folder
+# npm run pdf $folder
+
+$folder = "src\T09_vue_basics"
 npm run html $folder
 npm run pdf $folder
