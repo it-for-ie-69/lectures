@@ -54,3 +54,8 @@
 
 - [HTML](./src/T09_vue_basics/T09.html)
 - [PDF](./src/T09_vue_basics/T09.pdf)
+
+## Data Fetching
+
+- [HTML](./src/T10_data_fetching/T10.html)
+- [PDF](./src/T10_data_fetching/T10.pdf)

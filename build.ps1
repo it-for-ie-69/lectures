@@ -26,10 +26,14 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T08_vue"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\T08_vue"
+# npm run html $folder
+# npm run pdf $folder
 
-$folder = "src\T09_vue_basics"
+# $folder = "src\T09_vue_basics"
+# npm run html $folder
+# npm run pdf $folder
+
+$folder = "src\T10_data_fetching"
 npm run html $folder
 npm run pdf $folder
