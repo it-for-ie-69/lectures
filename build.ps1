@@ -30,10 +30,10 @@
 # npm run html $folder
 # npm run pdf $folder
 
-# $folder = "src\T09_vue_basics"
-# npm run html $folder
-# npm run pdf $folder
-
-$folder = "src\T10_data_fetching"
+$folder = "src\T09_vue_basics"
 npm run html $folder
 npm run pdf $folder
+
+# $folder = "src\T10_data_fetching"
+# npm run html $folder
+# npm run pdf $folder
