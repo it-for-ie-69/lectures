@@ -38,6 +38,10 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T11_database"
+# $folder = "src\T11_database"
+# npm run html $folder
+# npm run pdf $folder
+
+$folder = "src\T12_backend"
 npm run html $folder
 npm run pdf $folder
