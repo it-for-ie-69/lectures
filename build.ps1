@@ -18,9 +18,9 @@
 # npm run html $folder
 # npm run pdf $folder
 
-# $folder = "src\T06_typescript"
-# npm run html $folder
-# npm run pdf $folder
+$folder = "src\T06_typescript"
+npm run html $folder
+npm run pdf $folder
 
 # $folder = "src\T07_dom"
 # npm run html $folder
