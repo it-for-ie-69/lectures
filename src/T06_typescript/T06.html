@@ -450,7 +450,8 @@ numbers.<span class="hljs-title function_">forEach</span>(<span class="hljs-func
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="28" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="37">
 <h1 id="array-methods-examples-23">Array Methods Examples (2/3)</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-javascript"><span class="hljs-comment">// find: first number greater than 3</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-javascript"><span class="hljs-keyword">const</span> numbers = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>];
+<span class="hljs-comment">// find: first number greater than 3</span>
 <span class="hljs-keyword">const</span> found = numbers.<span class="hljs-title function_">find</span>(<span class="hljs-function">(<span class="hljs-params">n</span>) =&gt;</span> n &gt; <span class="hljs-number">3</span>);
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(found); <span class="hljs-comment">// 4</span>
 
@@ -462,14 +463,14 @@ numbers.<span class="hljs-title function_">forEach</span>(<span class="hljs-func
 <span class="hljs-keyword">const</span> removed = numbers.<span class="hljs-title function_">splice</span>(<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">99</span>); <span class="hljs-comment">// remove 1 element at index 1, add 99</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(numbers); <span class="hljs-comment">// [1, 99, 3, 4, 5]</span>
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(removed); <span class="hljs-comment">// [2]</span>
-
-<span class="hljs-keyword">const</span> fruits = [<span class="hljs-string">&quot;apple&quot;</span>, <span class="hljs-string">&quot;banana&quot;</span>, <span class="hljs-string">&quot;cherry&quot;</span>];
 </code></pre>
 <footer>255411: Information Technologies for Industrial Engineers</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="29" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="37">
 <h1 id="array-methods-examples-33">Array Methods Examples (3/3)</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-javascript"><span class="hljs-comment">// push: add to end</span>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-javascript"><span class="hljs-keyword">const</span> fruits = [<span class="hljs-string">&quot;apple&quot;</span>, <span class="hljs-string">&quot;banana&quot;</span>, <span class="hljs-string">&quot;cherry&quot;</span>];
+
+<span class="hljs-comment">// push: add to end</span>
 fruits.<span class="hljs-title function_">push</span>(<span class="hljs-string">&quot;mango&quot;</span>);
 <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(fruits); <span class="hljs-comment">// [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;mango&quot;]</span>
 
