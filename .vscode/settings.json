@@ -1,5 +1,10 @@
 {
   "markdown.copyFiles.destination": {
     "**/*": "${documentDirName}/img/paste-${unixTime}.png"
+  },
+
+  "workbench.editorAssociations": {
+    "*.md": "default",
+    "*.markdown": "default"
   }
 }
