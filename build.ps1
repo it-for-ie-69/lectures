@@ -46,6 +46,10 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T13_git"
+# $folder = "src\T13_git"
+# npm run html $folder
+# npm run pdf $folder
+
+$folder = "src\T14_docker_db"
 npm run html $folder
 npm run pdf $folder
