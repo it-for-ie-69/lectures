@@ -50,6 +50,10 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T14_docker_db"
+# $folder = "src\T14_docker_db"
+# npm run html $folder
+# npm run pdf $folder
+
+$folder = "src\T15_backend_db"
 npm run html $folder
 npm run pdf $folder
