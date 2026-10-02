@@ -57,3 +57,7 @@
 $folder = "src\T15_backend_db"
 npm run html $folder
 npm run pdf $folder
+
+$folder = "src\T16_fullstack"
+npm run html $folder
+npm run pdf $folder
