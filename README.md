@@ -28,3 +28,4 @@
 | Docker and Database   | [HTML](./src/T14_docker_db/T14.html)     | [PDF](./src/T14_docker_db/T14.pdf)     |
 | Backend with Database | [HTML](./src/T15_backend_db/T15.html)    | [PDF](./src/T15_backend_db/T15.pdf)    |
 | Fullstack             | [HTML](./src/T16_fullstack/T16.html)     | [PDF](./src/T16_fullstack/T16.pdf)     |
+| Deployment            | [HTML](./src/T17_deploy/T17.html)        | [PDF](./src/T17_deploy/T17.pdf)        |
