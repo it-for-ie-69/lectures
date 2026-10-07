@@ -28,7 +28,7 @@
 </foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="3" style="" data-marpit-pagination-total="53" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="4" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="53">
 <h1 id="how-it-works">How it works.</h1>
 <ul>
-<li>When you type the url in web browser, the url forward the request to a private server that I setup.</li>
+<li>When you type the url in web browser, the url forwards the request to a private server that I setup.</li>
 <li>My server expects an application running at a specific port.</li>
 <li>Your job is to run your application at that specific port.
 <ul>
@@ -110,7 +110,7 @@
 <footer>255411: Information Technologies for Industrial Engineers</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="9" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="53">
-<h1 id="step-1">Step 1</h1>
+<h1 id="step-1">Step 1:</h1>
 <blockquote>
 <p>Preparing Docker Environment</p>
 </blockquote>
@@ -157,7 +157,7 @@ DOCKER_NETWORK_NAME=<span class="hljs-string">&#x27;gXX_network&#x27;</span>
 <footer>255411: Information Technologies for Industrial Engineers</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="12" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="53">
-<h1 id="step-2">Step 2</h1>
+<h1 id="step-2">Step 2:</h1>
 <blockquote>
 <p>Database</p>
 </blockquote>
@@ -221,9 +221,9 @@ DB_PORT=<span class="hljs-string">&#x27;40XX&#x27;</span>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="15" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="53">
 <h1 id="db-container-management">DB Container Management</h1>
 <ul>
-<li>Inspect the list of container<br />
+<li>Inspect the list of containers<br />
 <code>docker ps -a</code></li>
-<li>Insepct the container<br />
+<li>Inspect the container<br />
 <code>docker inspect ${DB_CONTAINER_NAME}</code></li>
 <li>Delete the container, volume, and network if you want to start over<br />
 <code>docker rm -f ${DB_CONTAINER_NAME}</code><br />
@@ -400,7 +400,7 @@ PGPORT=5432
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="29" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="53">
 <h1 id="note-port">Note: Port</h1>
-<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-variable">${BACKEND_PORT}</span>:3000 // i.e. 50XX:3000
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-bash"><span class="hljs-variable">${BACKEND_PORT}</span>:3000 <span class="hljs-comment"># i.e. 50XX:3000</span>
 </code></pre>
 <ul>
 <li>The backend container is listening to port <code>3000</code> inside the container (hardcoded).</li>
@@ -428,7 +428,7 @@ PGPORT=5432
 <h1 id="test-running-container-from-dockerhub">Test Running Container from Dockerhub</h1>
 <ul>
 <li><code>docker rm -f ${BACKEND_CONTAINER_NAME}</code></li>
-<li><code>docker image rm ${BACKEND_IMAGE_NAME} ${BACKEND_IMAGE_NAME_TAG}</code></li>
+<li><code>docker rmi ${BACKEND_IMAGE_NAME} ${BACKEND_IMAGE_NAME_TAG}</code></li>
 <li><code>docker run -d --name ${BACKEND_CONTAINER_NAME} -p ${BACKEND_PORT}:3000 --network ${DOCKER_NETWORK_NAME} -e PGUSER=${PGUSER} -e PGHOST=${PGHOST} -e PGDATABASE=${PGDATABASE} -e PGPASSWORD=${PGPASSWORD} -e PGPORT=${PGPORT} ${BACKEND_IMAGE_NAME_TAG}</code></li>
 </ul>
 <blockquote>
@@ -509,7 +509,7 @@ PGPORT=5432
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="39" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="53">
 <h1 id="with-proxy-server">With Proxy Server</h1>
-<p><img src="img/paste-1791345222501.png" alt=" " /></p>
+<p><img src="img/paste-1791345222501.png" alt="alt text" /></p>
 <footer>255411: Information Technologies for Industrial Engineers</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="40" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="40" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="53">
@@ -595,7 +595,7 @@ BACKEND_URL=<span class="hljs-string">&quot;http://<span class="hljs-variable">$
 <h1 id="test-frontend-container">Test Frontend Container</h1>
 <ul>
 <li><code>docker rm -f ${FRONTEND_CONTAINER_NAME}</code></li>
-<li><code>docker image rm ${FRONTEND_IMAGE_NAME} ${FRONTEND_IMAGE_NAME_TAG}</code></li>
+<li><code>docker rmi ${FRONTEND_IMAGE_NAME} ${FRONTEND_IMAGE_NAME_TAG}</code></li>
 <li><code>docker run -d --name ${FRONTEND_CONTAINER_NAME} -p ${FRONTEND_PORT}:81 --network ${DOCKER_NETWORK_NAME} -e NGINX_PROXY_PASS=${BACKEND_URL} ${FRONTEND_IMAGE_NAME_TAG}</code></li>
 </ul>
 <blockquote>
