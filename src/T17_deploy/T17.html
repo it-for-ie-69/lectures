@@ -19,9 +19,16 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="3" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="51">
 <h1 id="goal">Goal</h1>
 <ul>
-<li>We will containerize the backend and frontend applications using <code>Docker</code> and deploy them to a server.</li>
-<li>The cool things about using docker is that we can test all the steps in our local machine before deploying to the server.</li>
+<li>We need to run our node.js backend and Vue.js frontend applications on a server so that other people can access it.
+<ul>
+<li>However, in the server there is no node.js installed. So you cannot run <code>pnpm run ...</code> in the server.</li>
 </ul>
+</li>
+<li>The solution is to containerize the backend and frontend applications using <code>Docker</code> and deploy them to a server.</li>
+</ul>
+<blockquote>
+<p><em>One nice thing about docker is that we can test all the steps in our local machine before deploying to the server. The steps are the same and it works 99% of the time.</em></p>
+</blockquote>
 <footer>255411: Information Technologies for Industrial Engineers</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="4" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="51">
@@ -67,7 +74,11 @@
 <ul>
 <li>We will push the backend/frontend images to Dockerhub so that we can pull it from the server.</li>
 <li>Create an account at <a href="https://hub.docker.com">https://hub.docker.com</a>.</li>
-<li>Create two repositories called <code>gXX_backend_image</code> and <code>gXX_frontend_image</code>.</li>
+<li>Create two repositories called <code>gXX_backend_image</code> and <code>gXX_frontend_image</code>.
+<ul>
+<li>Check your group name <a href="https://docs.google.com/spreadsheets/d/1Cl5uFgnDi7Url3osVAWpl23K3f7Dquh-P0hhYr8zsIE/edit">here.</a></li>
+</ul>
+</li>
 <li>Login to your account in terminal
 <ul>
 <li><code>docker login</code></li>
@@ -601,6 +612,9 @@ BACKEND_URL=<span class="hljs-string">&quot;http://<span class="hljs-variable">$
 </li>
 <li><code>passwd</code> to change your password.</li>
 </ul>
+<blockquote>
+<p>Again, there is no node.js installed in the server. Try running <code>node -v</code> and you will see <code>command not found</code>. There is only <code>docker</code> installed.</p>
+</blockquote>
 <footer>255411: Information Technologies for Industrial Engineers</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="50" data-class="invert" data-paginate="true" data-footer="255411: Information Technologies for Industrial Engineers" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="50" style="--class:invert;--paginate:true;--footer:255411: Information Technologies for Industrial Engineers;--theme:default;" data-marpit-pagination-total="51">
