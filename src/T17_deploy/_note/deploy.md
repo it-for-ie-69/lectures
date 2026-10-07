@@ -108,3 +108,14 @@ docker run -d --name ${FRONTEND_CONTAINER_NAME} \
 	-e NGINX_PROXY_PASS=${BACKEND_URL} \
 	${FRONTEND_IMAGE_NAME_TAG}
 ```
+
+## 5. Redeploy the backend and frontend
+
+```bash
+docker rm -f ${BACKEND_CONTAINER_NAME}
+docker rm -f ${FRONTEND_CONTAINER_NAME}
+docker image rm ${BACKEND_IMAGE_NAME_TAG}
+docker image rm ${FRONTEND_IMAGE_NAME_TAG}
+```
+
+Rerun the backend and frontend commands from steps 3 and 4 to redeploy the containers with the latest images.
